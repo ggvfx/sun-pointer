@@ -48,7 +48,7 @@ If you are setting up Sun Pointer for the first time in a level:
 ## 📦 Installation
 
 1.  Download the repository and extract the files.
-2.  Copy the `SunPointer` folder into your project's `Plugins` directory.
+2.  Copy the `SunPointer` sub-folder (the one containing the .uplugin file) into your project's `Plugins` directory.
 3.  Restart Unreal Engine.
 4.  Enable **Show Plugin Content** in your Content Browser settings to locate the widget.
 

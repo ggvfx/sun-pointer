@@ -2,7 +2,7 @@
 
 **Sun Pointer** is an intuitive Editor Utility Widget for Unreal Engine designed to take the guesswork out of lighting your scenes. Instead of wrestling with rotation values or the Directional Light gizmo, Sun Pointer allows you to position your sun visually by "pointing" exactly where you want it to be.
 
-![Sun Pointer UI](https://your-image-link-here.com)
+![Sun Pointer UI](Resources/SunPointer_UI.png)
 
 ## 🚀 The Concept
 The tool uses a **Sun Alignment Dummy** as a visual target. By calculating a vector from your **active viewport camera** through the dummy, the tool places the sun along that same line at a fixed distance. This ensures that the sun appears exactly where you are looking through the dummy, making "hero shot" lighting effortless.

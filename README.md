@@ -5,14 +5,16 @@
 ![Sun Pointer UI](Resources/SunPointer_UI.png)
 
 ## 🚀 The Concept
+
 Traditional lighting setups in 3D space often involve a "trial and error" loop; adjusting rotational gizmos or sliders, checking the viewport, and re-adjusting until the shadows hit a specific mark. This disconnected process slows down iteration, especially when trying to hit a specific "hero" angle. Sun Pointer solves this by leveraging vector-based alignment, allowing artists to set light trajectory directly from their perspective, turning a technical task into a creative, visual one.
+
 ---
 
 ## ✨ Key Features
 
 * **Perspective-Driven Alignment:** Calculates a vector from the active viewport camera through a target dummy to automate Directional Light rotation.
 * **Scene-Wide Actor Synchronization:** A single-click "Find Actors" function audits the scene to automatically link lights, sky spheres, and alignment targets.
-* **ontextual Asset Deployment:** Features a "Teleport" function to instantly bring the alignment dummy into the artist's current field of view, regardless of world scale.
+* **Contextual Asset Deployment:** Features a "Teleport" function to instantly bring the alignment dummy into the artist's current field of view, regardless of world scale.
 * **Global Visibility Management:** Integrated UI toggles allow for instant cleanup of helper assets, ensuring the viewport remains optimized for artistic review.
 * **Configurable World-Scale Alignment:** Provides granular control over Sun Sphere scale and distance parameters, ensuring the tool’s visual guides remain compatible with the project’s specific atmospheric far-clip planes and world units.
 

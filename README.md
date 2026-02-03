@@ -1,21 +1,20 @@
 # Sun Pointer ![Sun Pointer UEIcon](Resources/SunPointer_icon32.png)
 
-**Sun Pointer** is an intuitive Editor Utility Widget for Unreal Engine designed to take the guesswork out of lighting your scenes. Instead of wrestling with rotation values or the Directional Light gizmo, Sun Pointer allows you to position your sun visually by "pointing" exactly where you want it to be.
+**Sun Pointer** is a UX-driven Unreal Engine utility designed to eliminate the technical friction of scene lighting. Instead of relying on manual rotation values or directional gizmos, Sun Pointer allows lighting artists to position the sun visually by "pointing" exactly where the light should originate from a specific vantage point. This tool significantly accelerates the iteration speed of Lighting Supervisors and Environment Artists, transforming "hero shot" lighting into an intuitive, perspective-based process.
 
 ![Sun Pointer UI](Resources/SunPointer_UI.png)
 
 ## 🚀 The Concept
-The tool uses a **Sun Alignment Dummy** as a visual target. By calculating a vector from your **active viewport camera** through the dummy, the tool places the sun along that same line at a fixed distance. This ensures that the sun appears exactly where you are looking through the dummy, making "hero shot" lighting effortless.
-
+Traditional lighting setups in 3D space often involve a "trial and error" loop; adjusting rotational gizmos or sliders, checking the viewport, and re-adjusting until the shadows hit a specific mark. This disconnected process slows down iteration, especially when trying to hit a specific "hero" angle. Sun Pointer solves this by leveraging vector-based alignment, allowing artists to set light trajectory directly from their perspective, turning a technical task into a creative, visual one.
 ---
 
 ## ✨ Key Features
 
-* **Point-and-Shoot Lighting:** Align the sun based on your current perspective.
-* **Smart Actor Detection:** The "Find Actors" button automatically scans your scene and links your Directional Light, Sun Sphere, and Dummy.
-* **Instant Teleportation:** Use the "Teleport" button to bring the alignment dummy directly in front of your camera, no matter how large the level is.
-* **Visibility Controls:** Easily toggle the visibility of the dummy and sun sphere to keep your viewport clean while working.
-* **Customizable Distance:** Fine-tune the Sun Sphere scale and distance to clear your far-clip plane or fit your world's atmosphere.
+* **Perspective-Driven Alignment:** Calculates a vector from the active viewport camera through a target dummy to automate Directional Light rotation.
+* **Scene-Wide Actor Synchronization:** A single-click "Find Actors" function audits the scene to automatically link lights, sky spheres, and alignment targets.
+* **ontextual Asset Deployment:** Features a "Teleport" function to instantly bring the alignment dummy into the artist's current field of view, regardless of world scale.
+* **Global Visibility Management:** Integrated UI toggles allow for instant cleanup of helper assets, ensuring the viewport remains optimized for artistic review.
+* **Configurable World-Scale Alignment:** Provides granular control over Sun Sphere scale and distance parameters, ensuring the tool’s visual guides remain compatible with the project’s specific atmospheric far-clip planes and world units.
 
 ---
 
